@@ -47,3 +47,8 @@ theme = 'hugo-coder'
   name = "Experience"
   url = "/experience/"
   weight = 3
+
+[[menu.main]]
+  name = "Photography"
+  url = "https://sunnyhh.github.io/photography"
+  weight = 4
