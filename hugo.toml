@@ -1,0 +1,49 @@
+baseURL = 'https://sunnyhh.github.io/'
+languageCode = 'en-us'
+title = 'Sunny'
+theme = 'hugo-coder'
+
+[params]
+  avatarURL = "image/avatar.jpg"
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
+  customCSS = ["css/custom.css"]
+
+[[params.social]]
+  name = "Email"
+  icon = "fa-solid fa-envelope"
+  url = "mailto:sunnyhh051008@gmail.com"
+  weight = 1
+
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram"
+  url = "https://instagram.com/sunnyhh_lee"
+  weight = 2
+
+[[params.social]]
+  name = "GitHub"
+  icon = "fa-brands fa-github"
+  url = "https://github.com/sunnyhh"
+  weight = 3
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin"
+  url = "https://linkedin.com/in/ge-li-778063218"
+  weight = 4
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Research"
+  url = "/research/"
+  weight = 2
+
+[[menu.main]]
+  name = "Experience"
+  url = "/experience/"
+  weight = 3
