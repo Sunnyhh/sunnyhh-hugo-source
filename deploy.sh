@@ -20,7 +20,7 @@ cd public
 if [ ! -d ".git" ]; then
     echo "🔧 Initializing git in public directory..."
     git init
-    git remote add origin https://github.com/Sunnyhh/sunnyhh.github.io.git
+    git remote add origin git@github.com:Sunnyhh/sunnyhh.github.io.git
 fi
 
 # Add and commit changes
